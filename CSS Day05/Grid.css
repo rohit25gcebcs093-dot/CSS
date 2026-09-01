@@ -6,6 +6,7 @@
     font-size:20px;
 }
 
+
 .container{
     padding:10px;
     display: grid;
@@ -15,12 +16,13 @@
     background-color:aqua;
     height: 400px;
     width: 400px;
-   
 }
+
 
 .first{
     background-color:orange;
 }
+
 
 .second{
     background-color:green;

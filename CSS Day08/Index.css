@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    perspective: 800px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    transition-property: background-color;
+    /*transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay: 1s;*/
+    transition: all 1s ease-in ;
+    /*transform:rotate(30deg)*/
+    font-size: 40px;
+    color: beige;
+}
+
+.box:hover{
+    /*background-color:brown;
+    width: 200px;
+    height:200px;*/
+    transform: scale(2);
+    transform: translateZ(200px);
+    transform: rotateY(40deg);
+}
